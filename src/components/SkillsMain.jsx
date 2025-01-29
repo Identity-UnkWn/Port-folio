@@ -2,6 +2,8 @@ import { faCss3Alt, faGitAlt, faHtml5, faJs, faNodeJs, faPython, faReact } from 
 import { HoverEffect } from "./ui/Card-hover-effect";
 import { icon } from "@fortawesome/fontawesome-svg-core";
 import { faC, faDatabase } from "@fortawesome/free-solid-svg-icons";
+import { ShootingStars } from "./ui/Stars-background";
+import { StarsBackground } from "./ui/Shooting-stars";
 
 
 export const SkillsMain = () => {
@@ -71,6 +73,7 @@ export const SkillsMain = () => {
 
   return (
     <div className='bg-black w-full min-h-screen text-white'>
+      
       <div className='pt-[10%] flex flex-col items-center'>
         <h1 className='text-[40px] tracking-[8px] font-[700]'>Skills</h1>
         <p className='text-lg mt-2'>Here are some of the technologies I have experience with.</p>

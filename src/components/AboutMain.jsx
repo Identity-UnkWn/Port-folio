@@ -4,6 +4,8 @@ import ContainedMeteors from './ui/Meteor';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 import { CardContainer, CardBody, CardItem } from './ui/3d-card'; 
+import { ShootingStars } from './ui/Stars-background';
+import { StarsBackground } from './ui/Shooting-stars';
 
 
     const handleDownload = () => {
@@ -33,6 +35,7 @@ function AboutMain() {
 
     return (
         <div className='bg-black w-full min-h-screen text-white'>
+            
             <div className='pt-[10%] flex flex-col items-center'>
                 <div className='max-w-[70%] text-center min-h-[140px]'>
                     <span className='text-[21px]' ref={el}></span>
