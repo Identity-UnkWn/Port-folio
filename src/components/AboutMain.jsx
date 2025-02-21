@@ -37,12 +37,12 @@ function AboutMain() {
         <div className='bg-black w-full min-h-screen text-white'>
             
             <div className='pt-[10%] flex flex-col items-center'>
-                <div className='max-w-[70%] text-center min-h-[140px]'>
+                <div className='max-w-[70%] text-center min-h-[490px] xl:min-h-[140px] p-[20px] sm:p-0'>
                     <span className='text-[21px]' ref={el}></span>
                 </div>
                 <div className='flex flex-col items-center mt-40 gap-[80px]'>
                     <p className='text-[40px] tracking-[8px] font-[700]'>Education</p>
-                    <div className='mt-8 text-2xl flex flex-row gap-20 min-h-[150px]'>
+                    <div className='mt-8 text-2xl flex flex-col xl:flex-row gap-20 min-h-[150px]'>
                         <div className={resuse}>
                             <ContainedMeteors number={10} />
                             <div className="relative z-10 p-6 text-white">
@@ -79,7 +79,7 @@ function AboutMain() {
                     </div>
 
                     <p className='text-[40px] tracking-[8px] font-[700]'>Hobbies</p>
-                    <div className='mt-8 text-2xl flex flex-row gap-30 min-h-[150px]'>
+                    <div className='mt-8 text-2xl flex flex-col xl:flex-row gap-20 sm:gap-30 min-h-[150px]'>
                         <div className="relative group">
                                 <div
                                     className="absolute -inset-1 rounded-lg blur opacity-75 group-hover:opacity-100 transition-all duration-300 h-110"

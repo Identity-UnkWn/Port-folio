@@ -72,13 +72,13 @@ export const SkillsMain = () => {
   ];
 
   return (
-    <div className='bg-black w-full min-h-screen text-white'>
+    <div className='bg-black w-full min-h-screen text-white overflow-x-hidden '>
       
       <div className='pt-[10%] flex flex-col items-center'>
         <h1 className='text-[40px] tracking-[8px] font-[700]'>Skills</h1>
         <p className='text-lg mt-2'>Here are some of the technologies I have experience with.</p>
       </div>
-      <div className="w-[1300px] mx-auto px-8">
+      <div className="w-[500px] md:w-[800px] lg:w-[1100px] xl:w-[1300px] mx-auto px-8">
         <HoverEffect items={skills} />
       </div>
     </div>

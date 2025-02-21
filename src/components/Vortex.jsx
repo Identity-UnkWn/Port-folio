@@ -8,7 +8,7 @@ export function VortexDemo() {
   const words = [
     {
       text: "Software Developer",
-      className: "text-purple-300"
+      className: "text-purple-300 text-[19px] md:text-[35px]",
     },
   ];
 
@@ -47,14 +47,14 @@ export function VortexDemo() {
         backgroundColor="black"
         className="flex items-center flex-col justify-center px-2 md:px-10 py-4 w-full h-full"
       >
-        <h2 className="bg-clip-text tracking-[5px] text-transparent bg-gradient-to-r from-white to-purple-500 text-2xl md:text-6xl font-bold text-center pb-[30px]">
+        <h2 className="bg-clip-text tracking-[2px] md:tracking-[5px] text-transparent bg-gradient-to-r from-white to-purple-500 text-3xl md:text-6xl font-bold text-center pb-[30px]">
           Hi, I&apos;m Sanjay KJ
         </h2>
         
         <div className="max-w-xl text-purple-300">
           <TypewriterEffectSmooth 
             words={words}
-            className="text-[25px] text-purple-300"
+            className=" md:text-[20px] text-purple-300"
           />
         </div>
         

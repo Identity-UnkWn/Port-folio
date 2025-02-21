@@ -43,10 +43,10 @@ export default function Contact() {
         <StarsBackground />
         <ShootingStars />
       </div>
-      <div className='pt-[10%] flex flex-col items-center gap-8 pb-[80px] relative z-10'>
+      <div className='pt-[10%] flex flex-col items-center gap-8 pb-[80px] relative z-10 overflow-x-hidden overflow-y-hidden'>
         {/* <p className='text-[40px] tracking-[8px] font-[700]'>Contact Me</p> */}
-        <div className='pl-[200px]'>
-          <div className='w-[600px] '>
+        <div className='pt-[80px] xl:pt-0 xl:pl-[200px] md:pl-[200px]'> 
+          <div className='w-[300px] xl:w-[600px] md:w-[600px]'>
             <form onSubmit={handleSubmit} className="md:w-2/3 bg-black dark:bg-gray-800 p-8 rounded-xl shadow-[0_0_40px_20px_rgba(168,85,247,0.4)]">
               <div className="space-y-6">
                 <div>
