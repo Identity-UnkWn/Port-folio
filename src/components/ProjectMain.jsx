@@ -94,6 +94,6 @@ const dummyContent = [
     ),
     
     image:
-      "./src/assets/DALL·E 2025-01-29 11.30.42 - A modern Learning Management System (LMS) interface. The design features a clean dashboard with a navigation sidebar on the left for accessing courses.webp",
+      "https://img.freepik.com/free-vector/education-infographic-template_1212-123.jpg?semt=ais_hybrid",
   },
 ];
